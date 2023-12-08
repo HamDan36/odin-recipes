@@ -1,0 +1,26 @@
+/* stylesheet*/
+
+.title {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.egg {
+    height: auto;
+    width: 650px;
+}
+
+.trans {
+    color: blue;
+    background-color: rgb(133, 128, 128);
+}
+
+.acid {
+    background-color: aquamarine;
+    color: rgb(183, 202, 72);
+}
+
+#dorito {
+    color: white;
+    background-color: orange;
+}
