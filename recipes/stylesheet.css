@@ -3,16 +3,34 @@
 .title {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: double goldenrod;
+    padding: 15px 25px;
 }
 
 .egg {
     height: auto;
     width: 650px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.taco {
+    height: auto;
+    width: 573px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .trans {
     color: blue;
     background-color: rgb(133, 128, 128);
+    display: block;
+    margin: 0 auto;
+    border: solid blue 4px;
+    width: fit-content;
+    font-size: larger;
 }
 
 .acid {
@@ -23,4 +41,16 @@
 #dorito {
     color: white;
     background-color: orange;
+}
+
+button {
+    display: block;
+    margin: 100px auto;
+    padding: 8px 24px;
+    background-color: honeydew;
+}
+
+.video {
+    margin-left: auto;
+    margin-right: auto;
 }
