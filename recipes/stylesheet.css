@@ -31,16 +31,21 @@
     border: solid blue 4px;
     width: fit-content;
     font-size: larger;
+    padding: 2px;
 }
 
 .acid {
+    display: inline;
     background-color: aquamarine;
     color: rgb(183, 202, 72);
+    font-style: italic;
 }
 
 #dorito {
+    display: inline;
     color: white;
     background-color: orange;
+    padding: 2px;
 }
 
 button {
@@ -48,6 +53,24 @@ button {
     margin: 100px auto;
     padding: 8px 24px;
     background-color: honeydew;
+}
+
+.noun {
+    display: inline-block;
+    color: red;
+    background-color: honeydew;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fire {
+    display: inline-block;
+    color: red;
+    background-color: rgb(255, 166, 0);
+    padding: 15px;
+    border: solid 4px red;
+    margin-left: 2px;
+
 }
 
 .video {
